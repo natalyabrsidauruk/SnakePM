@@ -1,18 +1,6 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
-/**
- * Write a description of class Cara here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+import greenfoot.*;
 public class Tentang extends Actor
 {
-    /**
-     * Act - do whatever the Cara wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    
     public Tentang()
     {
         //setImage(new GreenfootImage("Cara", 60, Color.WHITE, Color.BLACK));
@@ -20,6 +8,9 @@ public class Tentang extends Actor
     }
     public void act() 
     {
+        GreenfootImage image = new GreenfootImage("tentang.png");
+        image.scale(300,180);
+        setImage(image);
         if(Greenfoot.mouseClicked(this))
         {
             Greenfoot.setWorld(new Tentang1());

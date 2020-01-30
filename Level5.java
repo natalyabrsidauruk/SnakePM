@@ -1,23 +1,10 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
-/**
- * Write a description of class Level6 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+import greenfoot.*;
 public class Level5 extends World
 {
-
-    /**
-     * Constructor for objects of class Level6.
-     * 
-     */
     //ada rumah dan makin banyak rintangan dan makin cepat kecepatan 
     public Level5()
     {
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(900, 400, 1); 
+        super(950,439, 1); 
         prepare();
     }
     private void Muncul(){
@@ -175,6 +162,14 @@ public class Level5 extends World
         smiley512.setLocation(719,135);
         smiley512.setLocation(760,298);
         smiley515.setLocation(854,290);
+        Landak landak2 = new Landak();
+        addObject(landak2,579,252);
+        removeObject(smiley5);
+        removeObject(smiley52);
+        removeObject(smiley56);
+        removeObject(smiley58);
+        smiley514.setLocation(800,154);
+        removeObject(smiley514);
     }
     
     public boolean cekPig(){

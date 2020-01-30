@@ -1,33 +1,16 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
-/**
- * Write a description of class Level3 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+import greenfoot.*;
 public class Level3 extends World
 {
-
-    /**
-     * Constructor for objects of class Level3.
-     * 
-     */
     //Benda jatuh dan mencari makan semaksimal mungkin
     public Level3()
-    {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(900, 400, 1); 
+    {
+        super(950, 439, 1); 
         prepare();
     }
     private void Muncul(){
         addObject(new Mouse(), Greenfoot.getRandomNumber(getWidth()), Greenfoot.getRandomNumber(getHeight()));
     }
 
-    /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
-     */
     private void prepare()
     {
         Snake2 snake2 = new Snake2();
@@ -61,6 +44,12 @@ public class Level3 extends World
         addObject(smiley52,485,27);
         Smiley5 smiley53 = new Smiley5();
         addObject(smiley53,761,28);
+        house2.setLocation(351,108);
+        house7.setLocation(856,81);
+        house5.setLocation(636,343);
+        house3.setLocation(64,56);
+        house3.setLocation(835,320);
+        removeObject(house);
     }
     
         public boolean cekMouse(){

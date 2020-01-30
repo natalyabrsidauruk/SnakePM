@@ -1,30 +1,13 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
-/**
- * Write a description of class Level5 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+import greenfoot.*;
 public class Level4 extends World
 {
-
-    /**
-     * Constructor for objects of class Level5.
-     * 
-     */
     //Game bonus mencari makan sampai selesai
     public Level4()
-    {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(900, 400, 1); 
+    { 
+        super(950,439, 1); 
         prepare();
     }
 
-    /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
-     */
     private void prepare()
     {
         Snake2 snake2 = new Snake2();

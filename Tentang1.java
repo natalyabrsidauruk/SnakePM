@@ -1,29 +1,14 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
-/**
- * Write a description of class Cara1 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+import greenfoot.*;
 public class Tentang1 extends World
 {
 
-    /**
-     * Constructor for objects of class Cara1.
-     * 
-     */
     public Tentang1()
     {    
-        super(600, 339, 1);
-        getBackground().scale (600,339);
+        super(950,439, 1);
+        getBackground().scale (950,439);
         prepare();
     }
 
-    /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
-     */
     private void prepare()
     {
         Tentang cara = new Tentang();
@@ -40,5 +25,7 @@ public class Tentang1 extends World
         Back3 back3 = new Back3();
         addObject(back3,49,50);
         back3.setLocation(59,46);
+        open.setLocation(874,47);
+        open.setLocation(895,43);
     }
 }
