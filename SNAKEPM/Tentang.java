@@ -13,7 +13,7 @@ public class Tentang extends Actor
         setImage(image);
         if(Greenfoot.mouseClicked(this))
         {
-            Greenfoot.setWorld(new Tentang1());
+            Greenfoot.setWorld(new TentangGame());
         }
         
     }

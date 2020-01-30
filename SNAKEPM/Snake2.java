@@ -11,12 +11,12 @@ public class Snake2 extends Actor
        
        if(isTouching(Pig.class)){
        removeTouching(Pig.class);
-       Greenfoot.playSound("klik.mp3");
+       Greenfoot.playSound("snakehiss2.wav");
        score = score + 5;
        }
        if(isTouching(Mouse.class)){
        removeTouching(Mouse.class);
-       Greenfoot.playSound("klik.mp3");
+       Greenfoot.playSound("snakehiss2.wav");
        score = score + 5;
        }
           if(score == 20&&getWorld() instanceof Game){
@@ -37,17 +37,17 @@ public class Snake2 extends Actor
         if(isTouching(Smiley5.class)){
             setLocation(24, 270);
             nyawa = nyawa - 1;
-            Greenfoot.playSound("snakehiss2.wav");
+            Greenfoot.playSound("lagu1.wav");
         }
         if(isTouching(Kotak.class)){
             setLocation(24, 270);
             nyawa = nyawa - 1;
-            Greenfoot.playSound("snakehiss2.wav");
+            Greenfoot.playSound("lagu1.wav");
         }
         if(isTouching(House.class)){
             setLocation(24, 270);
             nyawa = nyawa - 1;
-            Greenfoot.playSound("snakehiss2.wav");
+            Greenfoot.playSound("lagu1.wav");
         }
         if(nyawa < 1){
             Greenfoot.setWorld(new GameOver());

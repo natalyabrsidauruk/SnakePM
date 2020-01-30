@@ -92,18 +92,8 @@ public class Level5 extends World
         snake2.setLocation(29,255);
         Pig pig = new Pig();
         addObject(pig,734,185);
-        kotak6.setLocation(36,432);
-        kotak5.setLocation(22,455);
-        kotak6.setLocation(12,426);
-        kotak5.setLocation(29,324);
-        kotak6.setLocation(31,307);
         kotak5.setLocation(24,375);
         kotak6.setLocation(23,325);
-        kotak.setLocation(306,234);
-        kotak.setLocation(304,162);
-        kotak.setLocation(311,176);
-        kotak.setLocation(362,166);
-        kotak.setLocation(366,177);
         kotak.setLocation(308,164);
         kotak11.setLocation(312,165);
         kotak.setLocation(361,165);
@@ -115,13 +105,6 @@ public class Level5 extends World
         kotak3.setLocation(555,329);
         kotak4.setLocation(605,378);
         pig.setLocation(618,145);
-        Landak landak = new Landak();
-        addObject(landak,434,69);
-        removeObject(landak);
-        Smiley5 smiley5 = new Smiley5();
-        addObject(smiley5,130,363);
-        Smiley5 smiley52 = new Smiley5();
-        addObject(smiley52,178,324);
         Smiley5 smiley53 = new Smiley5();
         addObject(smiley53,234,294);
         Smiley5 smiley54 = new Smiley5();
@@ -135,8 +118,6 @@ public class Level5 extends World
         Smiley5 smiley58 = new Smiley5();
         addObject(smiley58,532,134);
         smiley58.setLocation(539,134);
-        Smiley5 smiley59 = new Smiley5();
-        addObject(smiley59,583,99);
         Smiley5 smiley510 = new Smiley5();
         addObject(smiley510,635,71);
         Smiley5 smiley511 = new Smiley5();
@@ -149,27 +130,22 @@ public class Level5 extends World
         addObject(smiley514,823,149);
         Smiley5 smiley515 = new Smiley5();
         addObject(smiley515,866,186);
-        smiley52.setLocation(172,122);
+
         smiley53.setLocation(228,246);
         smiley54.setLocation(299,39);
         smiley55.setLocation(368,328);
         smiley56.setLocation(422,278);
         smiley57.setLocation(474,25);
         smiley58.setLocation(514,146);
-        smiley59.setLocation(575,119);
         smiley510.setLocation(637,213);
         smiley511.setLocation(690,36);
         smiley512.setLocation(719,135);
         smiley512.setLocation(760,298);
         smiley515.setLocation(854,290);
-        Landak landak2 = new Landak();
-        addObject(landak2,579,252);
-        removeObject(smiley5);
-        removeObject(smiley52);
-        removeObject(smiley56);
-        removeObject(smiley58);
         smiley514.setLocation(800,154);
         removeObject(smiley514);
+        snake2.setLocation(26,260);
+
     }
     
     public boolean cekPig(){

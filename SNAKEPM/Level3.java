@@ -50,10 +50,13 @@ public class Level3 extends World
         house3.setLocation(64,56);
         house3.setLocation(835,320);
         removeObject(house);
+        house2.setLocation(313,111);
+        house4.setLocation(661,123);
+        house7.setLocation(888,111);
     }
     
-        public boolean cekMouse(){
-        return getObjects(Mouse.class).size() == 0 ;
+    public boolean cekMouse(){
+       return getObjects(Mouse.class).size() == 0 ;
     }
     
     public void act (){

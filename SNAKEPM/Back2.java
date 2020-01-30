@@ -5,7 +5,7 @@ public class Back2 extends Actor
     {
         if(Greenfoot.mouseClicked(this))
         {
-            Greenfoot.setWorld(new Tentang1());
+            Greenfoot.setWorld(new GameAssets());
             Greenfoot.playSound("klik.mp3");
         }
     }    
